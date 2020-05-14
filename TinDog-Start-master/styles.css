@@ -1,0 +1,160 @@
+
+#title{
+    background-color:rgb(91, 162, 243);
+}
+.container-fluid{
+    padding: 3% 15% 5%;
+}
+h1{
+    font-family: "Montserrat";
+    font-size: 3.4rem;
+    line-height: 1.5;
+    font-weight: 800;
+}
+h3{
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    color: black;
+}
+h2{
+    font-size: 2.3rem;
+    font-family: "Montserrat" ;
+}
+p{
+    color: rgb(153, 153, 153);
+}
+
+/* Navigation-Bar-Section */
+
+.navbar-brand{
+    font-size: 2.3rem;
+    font-family: "Ubuntu";
+    font-weight: bold;
+    
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Ubuntu";
+}
+
+.title-image{
+    width: 51%;
+    transform: rotate(20deg);
+    position: absolute;
+}
+
+/* Media Query (title section) */
+
+@media (max-width:1020px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        margin-top: 30px;
+        position: static;
+        transform: rotate(0);
+        width: 40%;
+    }
+}
+
+
+
+
+
+/* feature-section */
+
+#features{
+    background-color: white;
+    padding: 7% 15%;
+    text-align: center;
+    position: relative;
+    
+}
+
+.features-box{
+    padding: 4.5%;
+}
+
+.icon{
+    margin-bottom: 1rem;
+    color:rgb(96, 193, 238) ;
+}
+.icon:hover{
+    color:rgb(91, 162, 243);
+}
+
+/* Testimonial-Section */
+
+#testimonials{
+    background-color: rgb(96, 193, 238);
+    text-align: center;
+    font-size: 20px;
+}
+
+.testimonial-img{
+    margin: 20px;
+    width: 10%;
+    border-radius: 100%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+/* Press-section */
+
+#press{
+    text-align: center;
+    background-color: rgb(96, 193, 238);
+    padding: 6% 3%;
+}
+.press-image{
+    margin: 40px 30px;
+}
+
+/* pricing-section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.price-card{
+   padding: 3% 2%;   
+}
+
+/* CTA Section */
+
+#cta{
+    background-color:rgb(96, 193, 238);
+    padding: 5% 10%;
+    text-align: center;
+}
+
+#cta h3{
+    font-size: 4rem;
+    padding: 30px 20px ;
+}
+.btn{
+    margin: 30px 5px ;
+}
+
+/* footer */
+
+#footer{
+    text-align: center;
+    padding: 40px;
+}
+#footer .fab{
+    margin: 10px;
+}
+
+#footer p{
+    font-weight: bold;
+}
